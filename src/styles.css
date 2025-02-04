@@ -1,21 +1,144 @@
+/* General reset and typography */
 * {
-  font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-html, body {
-  margin: 0;
-  border: 0;
-  padding: 0;
-  background-color: #fff;
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
 }
 
-main {
-  margin: auto;
-  width: 50%;
-  padding: 20px;
+h1, h2, h3 {
+    color: #2c3e50;
 }
 
-main > h1 {
-  text-align: center;
-  font-size: 3.5em;
+/* Header styles */
+header {
+    background-color: #3498db;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header .logo h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #f39c12;
+}
+
+/* Intro section styles */
+.intro {
+    background-color: #ecf0f1;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.intro h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.intro p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Course offerings section */
+.course-offerings {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.course-offerings h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.course {
+    display: inline-block;
+    width: 28%;
+    margin: 0 10px;
+    padding: 20px;
+    background-color: #3498db;
+    color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.course h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.course p {
+    font-size: 1rem;
+}
+
+/* Promotions section */
+.promotions {
+    padding: 50px 20px;
+    background-color: #ecf0f1;
+    text-align: center;
+}
+
+.promotions h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.promo {
+    display: inline-block;
+    width: 45%;
+    margin: 10px 2.5%;
+    padding: 20px;
+    background-color: #e74c3c;
+    color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.promo h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.promo p {
+    font-size: 1rem;
+}
+
+/* Footer styles */
+footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 30px;
+}
+
+footer p {
+    font-size: 0.9rem;
 }
